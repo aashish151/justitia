@@ -1,0 +1,16 @@
+html{overflow-x:hidden;}
+br{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}
+h1 {font-family: 'Josefin Sans', sans-serif;}
+h2 {font-family: 'Josefin Sans', sans-serif;}
+h3 {font-family: 'Josefin Sans', sans-serif; font-size:2vmax}
+p{font-family: 'Raleway', sans-serif;}
+span{font-family: 'Raleway', sans-serif;}
+.abs-center-x{position:absolute;left:50%;transform:translateX(-50%)}
+.jumbotron {
+    margin-bottom: 0px;
+ }
+
+.bg-black{
+  background-color: #000
+}
+.dropdown-menu { background-color: #000; color: #fff;}
