@@ -1,10 +1,11 @@
 html{overflow-x:hidden;}
 br{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}
-h1 {font-family: 'Josefin Sans', sans-serif;}
-h2 {font-family: 'Josefin Sans', sans-serif;}
-h3 {font-family: 'Josefin Sans', sans-serif; font-size:2vmax}
-p{font-family: 'Raleway', sans-serif;}
-span{font-family: 'Raleway', sans-serif;}
+h1 {font-family: 'Abril Fatface', cursive;}
+h2 {font-family: 'Abril Fatface', cursive;}
+h3 {font-family: 'Special Elite', cursive; font-size:2vmax}
+p{font-family: 'Montserrat', sans-serif;}
+a{font-family: 'Montserrat', sans-serif;}
+span{font-family: 'Montserrat', sans-serif;}
 .abs-center-x{position:absolute;left:50%;transform:translateX(-50%)}
 .jumbotron {
     margin-bottom: 0px;
