@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded',function(event){
-  var dataText = [ "Observe.", "Analyze.", "Report.", "JUSTITIA"];
+  var dataText = [ "WELCOME TO", "JUSTITIA", "THE FORENSICS CLUB OF<br>KMC MANIPAL"];
 
   function typeWriter(text, i, fnCallback) {
     if (i < (text.length)) {
-     document.querySelector("h2").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+     document.querySelector("h3").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
 
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)
-      }, 75);
+      }, 50);
     }
     else if (typeof fnCallback == 'function') {
       setTimeout(fnCallback, 1000);
